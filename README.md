@@ -1,7 +1,7 @@
 # Timekur
-[en] Program for calculating the standard of time in show jumping 
+[en] Program for calculating the standard of time in show jumping </br>
 [pl] Program do obliczania normy czasu w konkursach skoków przez przeszkody
-![logo Timekur](Timekur/img/logo1.png)
+
 # Freatures / Funkcje
 [en] Program is calculating the standart of time in Polish show jumping competitions.
 In addition, The program checks the correctness of the selected speed.</br>
@@ -17,7 +17,7 @@ W dodatku program sprawdza poprawność wybranej szybkości.
 # Screenshot / Zrzut ekranu
 ![Screenshot](Timekur/img/Screenshot.png)
 # Author / Autor
-Maciej Pewniak - [@pewnior]
+Maciej Pewniak - @pewnior
 # License / Licencja
 [en] All rights reserved </br>
 [pl] Wszelkie prawa zastrzeżone
