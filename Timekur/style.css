@@ -47,10 +47,12 @@ html, body {
     padding-right: 20%;
     font-size: 50px;
 }
-
+#flag{
+    text-align: right;
+}
 #info{
     clear: both;
-    padding: 50px;
+    
     text-align: center;
 }
 #kalk{

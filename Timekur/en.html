@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UFT-8"/>
+    <title>Timekur</title>
+    <meta name="descrition" content="Kalkulator normy czasu w konkursach skoków przez przeszkody"/>
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script type="text/javascript" src="app_en.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="logo">
+                <img src="img/logo1.png" height="250px" width="150px"/>
+            </div>
+            <div id="tytul">
+                <h1>TIMEKUR</h1>
+            </div>
+        </div>
+        <div id="middle">
+            <div id="info">
+                <p id="flag">
+                    <a href="index.html"><img src="img/PL_flag.png" width="30px" height="30px"/></a>
+                    <a href="en.html"><img src="img/EN_flag.png" width="30px" height="30px"/></a>
+                </p>
+                Timekur is a program for calculating the time allowed for showjumping competitions, intended for judges. </br>
+                With it, you can save the time needed to calculate the time allowded.
+            </div>
+            <div id="kalk">
+                <p>Distance: <input id="dystans"  type="text" required value="0" class="form" style="font-size: 20px;"/> m&nbsp;&nbsp;&nbsp;&nbsp;
+                Pace: <select id="szybkosc" class="form" style="font-size: 25px;">
+                <option value="300">300</option>
+                <option value="325">325</option>
+                <option value="350">350</option>
+                <option value="375">375</option>
+                <option value="400">400</option>
+                </select> m/min</p>
+                <p>Grand Prix: <input id="grand" type="checkbox" class="form" />&nbsp;&nbsp;&nbsp;&nbsp;
+                Competition for young horses: <input id="mlode" type="checkbox" class="form"/></p>
+                <p><input type="submit" value="Calculate" onclick="oblicz()" class="form" style="font-size: 25px;"/></p>
+                <div id="wynik">
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            TIMEKUR Maciej Pewniak &copy; All rights reserved
+        </div>
+    </div>
+</body>
