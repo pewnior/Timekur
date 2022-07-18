@@ -64,6 +64,16 @@ html, body {
     border: 1.5px solid black;
 }
 .error{
-    background-color: red;
-    font-size: 30px;
+    border-color: red;
+    border-width:3px;
+    animation: shake 300ms;
+}
+@keyframes shake{
+    25% {transform: translateX(4px);}
+    50% {transform: translateX(-4px);}
+    75% {transform: translateX(4px);}
+}
+.good{
+    border-width:1.5px;
+    border-color:black;
 }
